@@ -1,0 +1,12 @@
+/* 变量定义 */
+@import "variables.scss";
+
+/* 工具函数 */
+@import "mixins.scss";
+
+#app,
+html,
+body {
+  width: 100%;
+  height: 100%;
+}

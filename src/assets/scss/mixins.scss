@@ -1,0 +1,17 @@
+%clearfix {
+  *zoom: 1;
+  &:after {
+      content: " ";
+      display: block;
+      clear: both;
+      height: 0;
+      font-size: 0;
+      visibility: hidden;
+  }
+}
+
+%ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
